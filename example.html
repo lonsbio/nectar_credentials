@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="nectar_credentials.js"></script>
+
+    <title>Galaxy GVL credentials extractor</title>
+</head>
+<body onload="checkFileAPI();">
+For NeCTAR clouds, select either your ec2rc.sh file or the full zipped credentials file for automatic inclusion:<input type="file" onchange='readText(this)' />
+<hr>
+<div class="control-group required">
+        <label class="control-label" for="id_access_key">Access key
+        </label>
+        <div class="controls">
+
+            <input id="id_access_key" name="access_key" class="input_xlarge disableable" type="text" />
+
+
+            <br/><span class="help-inline"><span class="muted">Your Access Key ID. For the Amazon cloud, available from the <a href='https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key' target='_blank' tabindex='-1'>security credentials page</a>.</muted></span>
+
+           <!--
+
+
+            <span class="help-inline">Your Access Key ID. For the Amazon cloud, available from the <a href='https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key' target='_blank' tabindex='-1'>security credentials page</a>.</span>
+
+
+
+ -->
+        </div>
+      </div>
+
+
+
+      <div class="control-group required">
+        <label class="control-label" for="id_secret_key">Secret key
+        </label>
+        <div class="controls">
+
+            <input id="id_secret_key" name="secret_key" class="input_xlarge disableable" type="text" />
+
+
+
+
+
+
+            <br/><span class="help-inline"><span class="muted">Your Secret Access Key. For the Amazon cloud, also available from the <a href='https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key' target='_blank' tabindex='-1'>security credentials page</a>.</muted></span>
+
+           <!--
+
+
+            <span class="help-inline">Your Secret Access Key. For the Amazon cloud, also available from the <a href='https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key' target='_blank' tabindex='-1'>security credentials page</a>.</span>
+
+
+
+ -->
+        </div>
+      </div>
+
+
+</body>
+</html>
+
+
