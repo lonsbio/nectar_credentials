@@ -7,4 +7,4 @@ Functions based on code from:
   - http://stackoverflow.com/a/13709663
   - http://stackoverflow.com/a/3354277
 
-See 'example.html' 
+See [example.html](example.html)
