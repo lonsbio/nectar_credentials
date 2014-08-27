@@ -6,7 +6,15 @@
     <title>Galaxy GVL credentials extractor</title>
 </head>
 <body onload="checkFileAPI();">
-For NeCTAR clouds, select either your ec2rc.sh file or the full zipped credentials file for automatic inclusion:<input type="file" onchange='readText(this)' />
+For NeCTAR clouds, <a href="https://dashboard.rc.nectar.org.au/" target="_blank">login to the dashboard</a> first. You can then either:<br>
+<ul><li>
+Download the credentials for your default allocation <a href="https://dashboard.rc.nectar.org.au/project/access_and_security/api_access/ec2/">here</a> 
+</li>
+<li>
+Get the credential files for a different NeCTAR allocation as per <a href="https://docs.google.com/document/d/1D8DZBjdvqjO04RizMj-qObmx6PHPzhCTItdJJvrR1w4/pub#h.8prc1xmtw0sa" target="_blank">these instructions</a> 
+</li>
+</ul>
+Select the relvant ".zip" credentials file for automatic inclusion below:<input type="file" onchange='readText(this)' />
 <hr>
 <div class="control-group required">
         <label class="control-label" for="id_access_key">Access key
